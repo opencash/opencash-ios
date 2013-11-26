@@ -87,8 +87,8 @@
 		762922E01844325500661F9F = {
 			isa = PBXGroup;
 			children = (
-				762922F21844325500661F9F /* OpenCash-iOS */,
-				762923171844325500661F9F /* OpenCash-iOSTests */,
+				762922F21844325500661F9F /* Sources */,
+				762923171844325500661F9F /* Tests */,
 				762922EB1844325500661F9F /* Frameworks */,
 				762922EA1844325500661F9F /* Products */,
 			);
@@ -114,7 +114,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		762922F21844325500661F9F /* OpenCash-iOS */ = {
+		762922F21844325500661F9F /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				762922FB1844325500661F9F /* OCAAppDelegate.h */,
@@ -128,7 +128,7 @@
 				7629230A1844325500661F9F /* Images.xcassets */,
 				762922F31844325500661F9F /* Supporting Files */,
 			);
-			path = "OpenCash-iOS";
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		762922F31844325500661F9F /* Supporting Files */ = {
@@ -139,16 +139,16 @@
 				762922F81844325500661F9F /* main.m */,
 				762922FA1844325500661F9F /* OpenCash-iOS-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		762923171844325500661F9F /* OpenCash-iOSTests */ = {
+		762923171844325500661F9F /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				7629231D1844325500661F9F /* OpenCash_iOSTests.m */,
 				762923181844325500661F9F /* Supporting Files */,
 			);
-			path = "OpenCash-iOSTests";
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		762923181844325500661F9F /* Supporting Files */ = {
@@ -157,7 +157,7 @@
 				762923191844325500661F9F /* OpenCash-iOSTests-Info.plist */,
 				7629231A1844325500661F9F /* InfoPlist.strings */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -481,6 +481,7 @@
 				762923231844325500661F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		762923241844325500661F9F /* Build configuration list for PBXNativeTarget "OpenCash-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +490,7 @@
 				762923261844325500661F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
