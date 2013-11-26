@@ -23,6 +23,7 @@
 		762923141844325500661F9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762922F01844325500661F9F /* UIKit.framework */; };
 		7629231C1844325500661F9F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7629231A1844325500661F9F /* InfoPlist.strings */; };
 		7629231E1844325500661F9F /* OpenCash_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7629231D1844325500661F9F /* OpenCash_iOSTests.m */; };
+		76D14EB818455AFF00B34D57 /* OpenCash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D14EB718455AFF00B34D57 /* OpenCash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		762923191844325500661F9F /* OpenCash-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenCash-iOSTests-Info.plist"; sourceTree = "<group>"; };
 		7629231B1844325500661F9F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7629231D1844325500661F9F /* OpenCash_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCash_iOSTests.m; sourceTree = "<group>"; };
+		76D14EB718455AFF00B34D57 /* OpenCash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCash.framework; path = "../../../../Library/Developer/Xcode/DerivedData/OpenCash-cfrowjiurnufkibcktlhntmfcspw/Build/Products/Debug/OpenCash.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76D14EB818455AFF00B34D57 /* OpenCash.framework in Frameworks */,
 				762922EF1844325500661F9F /* CoreGraphics.framework in Frameworks */,
 				762922F11844325500661F9F /* UIKit.framework in Frameworks */,
 				762922ED1844325500661F9F /* Foundation.framework in Frameworks */,
@@ -106,6 +109,7 @@
 		762922EB1844325500661F9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				76D14EB718455AFF00B34D57 /* OpenCash.framework */,
 				762922EC1844325500661F9F /* Foundation.framework */,
 				762922EE1844325500661F9F /* CoreGraphics.framework */,
 				762922F01844325500661F9F /* UIKit.framework */,
@@ -399,6 +403,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OpenCash-cfrowjiurnufkibcktlhntmfcspw/Build/Products/Debug",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-iOS-Prefix.pch";
 				INFOPLIST_FILE = "Sources/Supporting Files/OpenCash-iOS-Info.plist";
@@ -412,6 +420,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OpenCash-cfrowjiurnufkibcktlhntmfcspw/Build/Products/Debug",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sources/Supporting Files/OpenCash-iOS-Prefix.pch";
 				INFOPLIST_FILE = "Sources/Supporting Files/OpenCash-iOS-Info.plist";
