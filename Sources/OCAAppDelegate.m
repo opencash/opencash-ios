@@ -7,6 +7,7 @@
 //
 
 #import "OCAAppDelegate.h"
+#import <OpenCash/OpenCash.h>
 
 @implementation OCAAppDelegate
 
@@ -18,6 +19,8 @@
     UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
     splitViewController.delegate = (id)navigationController.topViewController;
   }
+
+  OCADocumentController *doc = [[OCADocumentController alloc] initWithFilename:@":memory:" shouldInitialize:YES];
   return YES;
 }
 
