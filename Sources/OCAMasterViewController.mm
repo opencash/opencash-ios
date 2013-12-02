@@ -10,6 +10,8 @@
 
 #import "OCADetailViewController.h"
 
+#import <OpenCash/OpenCash.h>
+
 @interface OCAMasterViewController () {
   NSMutableArray *_objects;
 }
@@ -70,7 +72,8 @@
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
   NSDate *object = _objects[indexPath.row];
-  cell.textLabel.text = [object description];
+//  cell.textLabel.text = [object description];
+  cell.textLabel.text = [OCADocumentController getAString];
   return cell;
 }
 
